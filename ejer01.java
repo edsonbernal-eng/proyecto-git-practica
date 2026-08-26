@@ -12,7 +12,7 @@ EJERCICIO 1
 public class main  { // creacion de la función
     public static void (String [] args){
         // empezaremos con las variables primitivas
-        byte edadGeovani = 22; // La varible de byte permite la entrada de numeros desde -128 a 127
+        byte edadedson = 24; // La varible de byte permite la entrada de numeros desde -128 a 127
         int ahorro = 123456789; // Variable de tipo entero que permite la entrada numeros grandes 
         long ahorroTotal = 323456789324234L; // variable utilizada para numeros aun mas extensos y ademas debemos de agregar
         // la letra L al final para poder mencinarle al codigo que es mas extenso el numero
