@@ -1,5 +1,4 @@
-// Programación 
-// Geovani Alvares Gopar PROGRAMACIÓN Jaciel Luna
+
 /* 
 EJERCICIO 1 
 - Crea un comentario en el código y coloca el nombre de la asignatura 
@@ -31,3 +30,15 @@ int main () //declaracion de variable
     cout<<"hola c++";// imprime el mensaje 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
