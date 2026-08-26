@@ -1,6 +1,5 @@
 
 // Programación 
-// Geovani Alvares Gopar PROGRAMACIÓN Jaciel Luna
 /* 
 EJERCICIO 1 
 - Representa las diferentes sintaxis que existen de crear comentarios en el lenguaje (en una línea, varias...). Escribe el nombre del profesor y tus datos generales
@@ -45,3 +44,9 @@ public class main  { // creacion de la función
 
     }
 }
+
+
+
+
+
+
