@@ -3,9 +3,9 @@ public class operadores_java { // Define una clase llamada OperadoresJava
 
     public static void main(String[]args){ // Método principal donde inicia el programa
 
-//**********************************
+//
 //OPERADORES ARITMÉICOS
-//**********************************
+//
 
 // Declaración de variables enteras con valores numericos
 int a = 10;
@@ -26,9 +26,9 @@ System.out.println("Suma:" + (a+b));
         // Muestra en consola el residuo de dividir a entre b
         System.out.println("Módulo: " + (a % b));
 
-        //*****************************************
+        //-------------------------
         //OPERADORES DE COMPARACION
-        //*****************************************
+        //
 
         // Compara si a es igual a b
         System.out.println("a == b: " + (a == b));
@@ -48,9 +48,9 @@ System.out.println("Suma:" + (a+b));
         // Compara si a es menor o igual que b
         System.out.println("a <= b: " + (a <= b));
 
-        //**********************************************
-        //OPERADORES LÓGICOS
-        //**********************************************
+        //-----------------------
+        //OPERADORES LÓGICos
+        //
 
          // Variable booleana con valor verdadero
         boolean x = true;
@@ -67,9 +67,9 @@ System.out.println("Suma:" + (a+b));
         // Invierte el valor lógico de x
         System.out.println("!x: " + (!x));
 
-        //*********************************************
+        //--------------------------
         //OPERADORES DE ASIGNACION
-        //********************************************
+        //
 
         // Declara una variable c con valor inicial 5
         int c = 5;
@@ -98,9 +98,9 @@ System.out.println("Suma:" + (a+b));
         // Muestra el nuevo valor de c
         System.out.println("c /= 2: " + c);
 
-        //*******************************************
+        //--------------------------------
         //CONDICIONAL iF- ELSE IF - ELSE
-        //*******************************************
+        //
 
          // Declara una variable edad con valor 18
         int edad = 18;
@@ -127,10 +127,10 @@ System.out.println("Suma:" + (a+b));
 
         }
 
-        //********************************************
+        //
         //BUCLE FOR
         //Repite instrucciones un numero determinado de veces
-        //********************************************
+        //
 
          // Variable i inicia en 1, se repite mientras i <= 5
         // y aumenta de uno en uno
@@ -141,10 +141,10 @@ System.out.println("Suma:" + (a+b));
 
         }
 
-        //********************************************
+        //
         //BUCLE WHILE
         //se ejecuta mientras la condicion sea verdadera
-        //********************************************
+        //
 
         // Variable contador con valor inicial 1
         int contador = 1;
@@ -160,10 +160,10 @@ System.out.println("Suma:" + (a+b));
 
         }
 
-        //**************************************************
+        //----------------------------
         //MANEJO DE EXCEPCIONES
         //permite controlar errores sin detener el programa
-        //**************************************************
+        
 
         try {
             // Provoca una división entre cero
@@ -296,10 +296,10 @@ console.log("c *= 3:", c);
 c /= 2;
 console.log("c /= 2:", c);
 
-//*************************************
+//-----------------
 //ESTRUCTURA CONDICIONAL IF
 //Tomar decisiones
-//*************************************
+//
 
 // Variable con una edad
 let edad = 18;
@@ -323,9 +323,9 @@ else {
 
 }
 
-//*********************************
+//-----------------------
 //ESTRUCTURA SWITCH
-//**********************************
+//
 
 // Variable que representa un día
 let dia = 3;
@@ -353,10 +353,10 @@ switch (dia) {
         console.log("Otro día");
 }
 
-//*********************************
+//----------------------
 //BUCLE FOR
 //se utiliza cuando ya sabemos cuantas veces repetir
-//*********************************
+//
 
 for (let i = 1; i <= 5; i++) {
 
@@ -364,10 +364,10 @@ for (let i = 1; i <= 5; i++) {
 
 }
 
-//*************************************
+//--------------------------
 //BUCLE WHILE
 //mientras la condicion sea verdadera
-//*************************************
+//
 
 let contador = 1;
 
@@ -379,9 +379,8 @@ while (contador <= 3) {
     contador++;
 }
 
-//*********************************
+//--------------------------
 //BREAK Y CONTINUE
-//*********************************
 
 for (let numero = 1; numero <= 5; numero++) {
        //El operador === compara tanto el valor como el tipo de dato
@@ -400,10 +399,10 @@ for (let numero = 1; numero <= 5; numero++) {
 
 }
 
-//*********************************
+//--------------------
 //EXCEPCIONES
 //permite controlar errores
-//*********************************
+
 
 try {
 
@@ -424,10 +423,10 @@ finally {
 
 }
 
-//*********************************
+//---------------------
 //OPERADOR TERNARIO
 //forma abreviada de in if
-//************************************
+
 
 // Si edad es mayor o igual a 18 devuelve un texto,
 // en caso contrario devuelve otro.
